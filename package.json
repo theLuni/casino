@@ -1,0 +1,23 @@
+{
+  "name": "luni-royal-casino",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Luni Royal — премиальное демо-казино на виртуальные фишки (без реальных денег)",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "selftest": "node scripts/selftest.mjs",
+    "smoke": "node scripts/smoke.mjs"
+  },
+  "devDependencies": {
+    "jsdom": "^30.1.2",
+    "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "@fontsource/inter": "^5.2.5",
+    "@fontsource/playfair-display": "^5.2.5",
+    "@fontsource/unbounded": "^5.2.5"
+  }
+}
